@@ -3,10 +3,10 @@ process.env.SIDETREE_TEST_MODE = 'true';
 process.env.SIDETREE_BITCOIN_CONFIG_FILE_PATH = '../tests/json/bitcoin-config-test.json';
 
 import * as supertest from 'supertest';
-import ErrorCode from '@decentralized-identity/sidetree/lib/common/SharedErrorCode';
-import RequestError from '@decentralized-identity/sidetree/lib/bitcoin/RequestError';
+import ErrorCode from 'sidetree-kenhuang/lib/common/SharedErrorCode';
+import RequestError from 'sidetree-kenhuang/lib/bitcoin/RequestError';
 import { blockchainService, server } from '../../src/bitcoin';
-import { ResponseStatus } from '@decentralized-identity/sidetree/lib/common/Response';
+import { ResponseStatus } from 'sidetree-kenhuang/lib/common/Response';
 
 describe('Bitcoin service', async () => {
   it('should return 400 with error code when transaction fecth throws invalid hash error.', async () => {

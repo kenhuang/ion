@@ -5,7 +5,7 @@ import * as querystring from 'querystring';
 import {
   ISidetreeBitcoinConfig,
   SidetreeBitcoinProcessor
-} from '@decentralized-identity/sidetree';
+} from 'sidetree-kenhuang';
 
 /** Bitcoin service configuration parameters */
 interface IBitcoinServiceConifg extends ISidetreeBitcoinConfig {

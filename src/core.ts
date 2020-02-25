@@ -6,8 +6,8 @@ import {
   SidetreeCore,
   SidetreeResponse,
   SidetreeResponseModel
-} from '@decentralized-identity/sidetree';
-import { ProtocolVersionModel } from '@decentralized-identity/sidetree/dist/lib/core/VersionManager';
+} from 'sidetree-kenhuang';
+import { ProtocolVersionModel } from 'sidetree-kenhuang/dist/lib/core/VersionManager';
 
 /** Configuration used by this server. */
 interface ServerConfig extends SidetreeConfig {

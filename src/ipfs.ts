@@ -6,7 +6,7 @@ import {
   SidetreeIpfsService,
   SidetreeResponse,
   SidetreeResponseModel
-} from '@decentralized-identity/sidetree';
+} from 'sidetree-kenhuang';
 
 const config: {
   /** Port number used by the service. */
