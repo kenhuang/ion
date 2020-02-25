@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "main": "dist/src/core.js",
   "dependencies": {
-    "sidetree-kenhuang": "0.5.3",
+    "sidetree-kenhuang": "0.5.4",
     "koa": "2.7.0",
     "koa-router": "7.4.0",
     "raw-body": "2.3.3"
